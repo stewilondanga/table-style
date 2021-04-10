@@ -219,7 +219,7 @@ body {
   font-size: 15px;
 }
 
-.cal th {
+.containers .cal th {
   color: #aaa;
   line-height: 200%;
 }
