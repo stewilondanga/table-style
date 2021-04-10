@@ -129,7 +129,7 @@ body {
   height: 30px;
 }
 
-/*#contact table::after {
+#contact table::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -140,7 +140,7 @@ body {
   border-radius: 5% 5% 25% 25%/40% 40%;
 }
 
-#contact table tr:first-child td {
+/*#contact table tr:first-child td {
   background: #d6ac6d;
   height: 20px;
 }
