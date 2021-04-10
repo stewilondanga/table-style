@@ -116,7 +116,7 @@ table {
   position: relative;
 }
 
-/*table::before {
+table::before {
   content: "";
   position: absolute;
   bottom: calc(100% + 22px);
@@ -129,7 +129,7 @@ table {
   height: 30px;
 }
 
-table::after {
+/*table::after {
   content: "";
   position: absolute;
   bottom: 100%;
