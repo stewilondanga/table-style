@@ -109,7 +109,7 @@ body {
   transition-delay: 0.4s;
 }
 
-table {
+#contact table {
   width: 100%;
   max-width: 800px;
   border-collapse: collapse;
