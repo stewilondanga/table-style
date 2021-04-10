@@ -187,7 +187,7 @@ table tr:last-child {
   transform: skewX(20deg) translateX(55px) scaleX(0.99);
 }
 
-/*#contact h1 {
+#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
@@ -198,7 +198,7 @@ table tr:last-child {
   margin: 0 auto;
 }
 
-.cal {
+/*.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
