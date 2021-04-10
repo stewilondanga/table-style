@@ -129,7 +129,7 @@ table::before {
   height: 30px;
 }
 
-table::after {
+#contact table::after {
   content: "";
   position: absolute;
   bottom: 100%;
