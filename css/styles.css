@@ -116,7 +116,7 @@ table {
   position: relative;
 }
 
-table::before {
+#contact table::before {
   content: "";
   position: absolute;
   bottom: calc(100% + 22px);
