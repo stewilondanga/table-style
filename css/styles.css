@@ -213,13 +213,13 @@ body {
   transition: all 0.4s linear;
 }
 
-/*.containers .cal caption {
+.containers .cal caption {
   background: #d44;
   color: #eee;
   font-size: 15px;
 }
 
-.containers .cal th {
+/*.containers .cal th {
   color: #aaa;
   line-height: 200%;
 }
