@@ -149,11 +149,11 @@ table tr:first-child td:first-child {
   background: linear-gradient(to left, #d6ac6d, #e1c395);
 }
 
-/*table tr:first-child td:last-child {
+table tr:first-child td:last-child {
   background: linear-gradient(to right, #d6ac6d, #855f25);
 }
 
-table tr:nth-child(2) td {
+/*table tr:nth-child(2) td {
   background: #35260f;
   height: 5px;
 }
