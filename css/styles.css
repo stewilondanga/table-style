@@ -208,12 +208,12 @@ body {
   transition: all 0.2s linear;
 }
 
-/*.containers .cal:hover {
+.containers .cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
 }
 
-.containers .cal caption {
+/*.containers .cal caption {
   background: #d44;
   color: #eee;
   font-size: 15px;
