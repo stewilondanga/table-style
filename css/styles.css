@@ -140,12 +140,12 @@ body {
   border-radius: 5% 5% 25% 25%/40% 40%;
 }
 
-/*#contact table tr:first-child td {
+#contact table tr:first-child td {
   background: #d6ac6d;
   height: 20px;
 }
 
-#contact table tr:first-child td:first-child {
+/*#contact table tr:first-child td:first-child {
   background: linear-gradient(to left, #d6ac6d, #e1c395);
 }
 
