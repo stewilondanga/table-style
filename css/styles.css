@@ -168,7 +168,7 @@ table tr:nth-child(2) td:last-child {
   background: linear-gradient(to right, #35260f, black);
 }
 
-table tr:nth-child(3) td {
+#contact table tr:nth-child(3) td {
   height: 300px;
 }
 
