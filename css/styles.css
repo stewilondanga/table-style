@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,94 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+body {
+  background-color: #bfe6f2;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  position: relative;
+}
+
+table::before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% + 22px);
+  right: calc(40% - 22px);
+  border: 6px solid red;
+  border-color: #990000;
+  border-right-color: transparent;
+  border-radius: 30% 0 0 50%;
+  width: 30px;
+  height: 30px;
+}
+
+table::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 60%;
+  width: 50px;
+  height: 80px;
+  background: radial-gradient(circle at left 20px, red, #330000);
+  border-radius: 5% 5% 25% 25%/40% 40%;
+}
+
+table tr:first-child td {
+  background: #d6ac6d;
+  height: 20px;
+}
+
+table tr:first-child td:first-child {
+  background: linear-gradient(to left, #d6ac6d, #e1c395);
+}
+
+table tr:first-child td:last-child {
+  background: linear-gradient(to right, #d6ac6d, #855f25);
+}
+
+table tr:nth-child(2) td {
+  background: #35260f;
+  height: 5px;
+}
+
+table tr:nth-child(2) td:first-child {
+  transform: skewX(30deg) translateX(2px);
+  background: linear-gradient(to left, #35260f, #5d421a);
+}
+
+table tr:nth-child(2) td:last-child {
+  transform: skewX(-30deg) translateX(-2px);
+  background: linear-gradient(to right, #35260f, black);
+}
+
+table tr:nth-child(3) td {
+  height: 300px;
+}
+
+table tr:nth-child(3) td:nth-child(2), table tr:nth-child(3) td:nth-child(4) {
+  border-radius: 15%/50%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), linear-gradient(to right, #d6ac6d, #855f25);
+}
+
+table tr:last-child {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  height: calc(100% - 28px);
+  width: 100%;
+  top: 28px;
+  left: 0;
+  transform: skewX(20deg) translateX(55px) scaleX(0.99);
 }
 
 #contact h1 {
