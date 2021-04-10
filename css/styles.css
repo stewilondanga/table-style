@@ -109,14 +109,14 @@ body {
   transition-delay: 0.4s;
 }
 
-/*#contact table {
+#contact table {
   width: 100%;
   max-width: 800px;
   border-collapse: collapse;
   position: relative;
 }
 
-#contact table::before {
+/*#contact table::before {
   content: "";
   position: absolute;
   bottom: calc(100% + 22px);
