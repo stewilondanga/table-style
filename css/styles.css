@@ -145,7 +145,7 @@ table tr:first-child td {
   height: 20px;
 }
 
-table tr:first-child td:first-child {
+#contact table tr:first-child td:first-child {
   background: linear-gradient(to left, #d6ac6d, #e1c395);
 }
 
