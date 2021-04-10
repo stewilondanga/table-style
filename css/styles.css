@@ -153,12 +153,12 @@ table tr:first-child td:last-child {
   background: linear-gradient(to right, #d6ac6d, #855f25);
 }
 
-/*table tr:nth-child(2) td {
+table tr:nth-child(2) td {
   background: #35260f;
   height: 5px;
 }
 
-table tr:nth-child(2) td:first-child {
+/*table tr:nth-child(2) td:first-child {
   transform: skewX(30deg) translateX(2px);
   background: linear-gradient(to left, #35260f, #5d421a);
 }
