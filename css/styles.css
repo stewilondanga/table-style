@@ -140,7 +140,7 @@ table::after {
   border-radius: 5% 5% 25% 25%/40% 40%;
 }
 
-table tr:first-child td {
+#contact table tr:first-child td {
   background: #d6ac6d;
   height: 20px;
 }
