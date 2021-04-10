@@ -163,12 +163,12 @@ table tr:nth-child(2) td:first-child {
   background: linear-gradient(to left, #35260f, #5d421a);
 }
 
-/*table tr:nth-child(2) td:last-child {
+table tr:nth-child(2) td:last-child {
   transform: skewX(-30deg) translateX(-2px);
   background: linear-gradient(to right, #35260f, black);
 }
 
-table tr:nth-child(3) td {
+/*table tr:nth-child(3) td {
   height: 300px;
 }
 
