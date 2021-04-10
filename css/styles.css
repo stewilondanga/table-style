@@ -219,12 +219,12 @@ body {
   font-size: 15px;
 }
 
-/*.containers .cal th {
+.containers .cal th {
   color: #aaa;
   line-height: 200%;
 }
 
-.containers .cal th:first-child {
+/*.containers .cal th:first-child {
   color: #f00;
 }
 
