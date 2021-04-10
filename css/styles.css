@@ -116,7 +116,7 @@ body {
   position: relative;
 }
 
-/*#contact table::before {
+#contact table::before {
   content: "";
   position: absolute;
   bottom: calc(100% + 22px);
@@ -129,7 +129,7 @@ body {
   height: 30px;
 }
 
-#contact table::after {
+/*#contact table::after {
   content: "";
   position: absolute;
   bottom: 100%;
