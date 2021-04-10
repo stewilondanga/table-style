@@ -228,7 +228,7 @@ body {
   color: #f00;
 }
 
-.cal th:last-child {
+.containers .cal th:last-child {
   color: #04d;
 }
 
