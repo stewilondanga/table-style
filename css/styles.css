@@ -158,7 +158,7 @@ table tr:nth-child(2) td {
   height: 5px;
 }
 
-table tr:nth-child(2) td:first-child {
+#contact table tr:nth-child(2) td:first-child {
   transform: skewX(30deg) translateX(2px);
   background: linear-gradient(to left, #35260f, #5d421a);
 }
