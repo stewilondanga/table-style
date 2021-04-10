@@ -140,12 +140,12 @@ table::after {
   border-radius: 5% 5% 25% 25%/40% 40%;
 }
 
-/*table tr:first-child td {
+table tr:first-child td {
   background: #d6ac6d;
   height: 20px;
 }
 
-table tr:first-child td:first-child {
+/*table tr:first-child td:first-child {
   background: linear-gradient(to left, #d6ac6d, #e1c395);
 }
 
