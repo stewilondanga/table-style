@@ -129,7 +129,7 @@ table::before {
   height: 30px;
 }
 
-/*table::after {
+table::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -140,7 +140,7 @@ table::before {
   border-radius: 5% 5% 25% 25%/40% 40%;
 }
 
-table tr:first-child td {
+/*table tr:first-child td {
   background: #d6ac6d;
   height: 20px;
 }
