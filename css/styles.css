@@ -224,7 +224,7 @@ body {
   line-height: 200%;
 }
 
-.cal th:first-child {
+.containers .cal th:first-child {
   color: #f00;
 }
 
