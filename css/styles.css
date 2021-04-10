@@ -224,11 +224,11 @@ body {
   line-height: 200%;
 }
 
-/*.containers .cal th:first-child {
+.containers .cal th:first-child {
   color: #f00;
 }
 
-.containers .cal th:last-child {
+/*.containers .cal th:last-child {
   color: #04d;
 }
 
